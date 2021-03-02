@@ -28,6 +28,18 @@ const LanguageService = {
       )
       .where({ language_id });
   },
+  getLanguageHead(db, language_id, head) {
+    return db
+      .from('word')
+      .select(
+        'original',
+        'correct_count',
+        'incorrect_count',
+        'next',
+      )
+      .where({ language_id })
+      .andWhere('next', head);
+  }
 };
 
 module.exports = LanguageService;
