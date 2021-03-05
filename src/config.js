@@ -4,6 +4,7 @@ module.exports = {
   DATABASE_URL: process.env.DB_URL
     || 'postgresql://danielrenfro@localhost/spaced-repetition',
   TEST_DATABASE_URL: process.env.TEST_DATABASE_URL || 'postgresql://danielrenfro@localhost/spaced-repetition-test',
+  CLIENT_ORIGIN: 'https://spaced-repetition-client-khaki.vercel.app',
   JWT_SECRET: process.env.JWT_SECRET || 'change-this-secret',
   JWT_EXPIRY: process.env.JWT_EXPIRY || '3h',
 };
