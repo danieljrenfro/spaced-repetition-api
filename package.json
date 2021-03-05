@@ -1,5 +1,5 @@
 {
-  "name": "express-boilerplate",
+  "name": "spaced-repetition-api",
   "version": "0.0.1",
   "description": "",
   "main": "src/server.js",
@@ -14,7 +14,7 @@
     "postdeploy": "npm run migrate:production"
   },
   "keywords": [],
-  "author": "Tom `tomatao` HT <tomht@thinkful.com>",
+  "author": "Tom `tomatao` HT <tomht@thinkful.com> and Daniel Renfro danieljrenfro@gmail.com",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
