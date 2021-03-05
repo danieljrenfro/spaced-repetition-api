@@ -1,6 +1,6 @@
 # Spaced Repetition API
 
-[Live app](https://spaced-repetition-denim.vercel.app/)
+[Live app](https://spaced-repetition-client-khaki.vercel.app/)
 
 [Client-side repo](https://github.com/danieljrenfro/spaced-repetition-client)
 ## Learn new Gaelic words, with the spaced repetition technique! 
